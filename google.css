@@ -1,0 +1,147 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    box-sizing: border-box;
+    
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    
+    margin-left: auto;
+    width: 180px;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(78, 76, 76);
+
+}
+a:hover{
+    text-decoration: underline;
+    color: rgb(196, 17, 17);
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: -4rem;
+}
+input{
+    width: 500px;
+    padding: 0.8rem;
+    border-radius: 1.8rem;
+    margin: -4rem;
+    border: 1px solid rgb(180, 177, 177);
+    
+}
+.submain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 9.8rem;
+    width: 250px;
+    margin-left: 380px;
+}
+
+button{
+    padding: 0.4rem;
+    background-color: rgb(245, 243, 243);
+    color: #424141;
+    border: none;
+}
+p{
+    text-align: center;
+    margin: -8rem;
+    font-weight: 50;
+    color: rgb(65, 64, 64);
+    font-size: 14px;
+}
+label{
+    color: rgb(54, 54, 216);
+}
+footer{
+    background:rgb(228, 225, 225);
+ margin-top: 21rem;
+ color: #8d8c8c;
+ width: fit-content;
+}
+.top{
+    padding: 1em;
+
+}
+.bottom{
+    
+padding: 1em;
+display: flex;
+justify-content: space-between;
+
+    
+}
+.left a{
+    padding: 0.5rem;
+    margin-left: 2rem;
+    color: #8d8c8c;
+    
+    
+}
+button:checked{
+    color: rgb(38, 29, 168);
+}
+.right a{
+    padding: 1rem;
+    margin-right: 2rem;
+    width: 100px;
+    color: #8d8c8c;
+    
+}
+.middle{
+    
+    padding: 1em;
+    text-align: center;
+    border-top: 1px solid rgb(211, 208, 208);
+    color: #8f8d8d;
+}
+
+.middle a{
+    color: #8d8c8c;
+}
+
+@media only screen and (max-width:768px){
+
+    .nav{
+        display: flex;
+        justify-content: space-around;
+        
+        margin-left: auto;
+        width: 180px;
+        
+    }
+    input{
+        width: 400px;
+        padding: 0.8rem;
+        border-radius: 1.8rem;
+        margin: -4rem;
+        border: 1px solid rgb(180, 177, 177);
+        
+    }
+    .submain{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 9.8rem;
+        width: 250px;
+        
+        align-content: center;
+    }
+    .bottom{
+    
+        padding: 1em;
+        flex-direction: column;
+        justify-content: space-between;
+        
+            
+        }
+}
